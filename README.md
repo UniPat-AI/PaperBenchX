@@ -43,13 +43,13 @@ in this repository; access is managed separately by the maintainers.
 
 </div>
 
-**Three capabilities, one executable contract:**
+**Three capabilities:**
 
-- **Reconstruct:** recover the scientific model, assumptions, geometry, parameters,
+- **Modeling:** recover the scientific model, assumptions, geometry, parameters,
   and target observables from the paper.
-- **Execute:** use native scientific tools, interpret diagnostics, and establish
+- **Execution:** use native scientific tools, interpret diagnostics, and establish
   that the intended computation actually ran.
-- **Validate:** regenerate artifacts and connect numerical and scientific claims
+- **Validation:** regenerate artifacts and connect numerical and scientific claims
   to the evidence that supports them.
 
 ## What Is Open
@@ -140,9 +140,8 @@ are available in the detailed protocol.
 
 The agent submits a runnable `reproduce.sh`, source, and permitted inputs. The
 verifier removes generated outputs, replays the workflow under task-specific
-isolation and resource limits, and grades the regenerated evidence. Deterministic
-checks assess directly computable properties; a separately configured model-based
-judge reviews scientific implementation and interpretation where required.
+isolation and resource limits, and grades the regenerated evidence. Deterministic checks assess directly computable properties; where model-based judgment is required, the official evaluation uses GPT-5.6 Sol uniformly across all submissions to review scientific implementation and interpretation under a separately configured judging protocol.
+
 
 Each task's `tests/rubric.json` defines its own weighted criteria. A report may
 explain evidence, but cannot substitute for it. Missing or infrastructure-blocked
