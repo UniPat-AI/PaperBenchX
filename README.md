@@ -79,18 +79,18 @@ are in the [task catalog](docs/tasks.md).
 
 | ID | Research area | Representative task |
 |---|---|---|
-| [01](tasks/01-cpw-quad-port-uwb-mimo/instruction.md) | Multi-port antennas | Matching, isolation, and radiation in a CPW UWB MIMO antenna |
-| [02](tasks/02-anisotropic-coding-diffusion-metasurface/instruction.md) | Coding metasurfaces | Polarization-dependent reflection and diffuse scattering |
-| [03](tasks/03-dual-passband-angular-stable-fss/instruction.md) | Frequency-selective surfaces | Dual-passband transmission and angular stability |
-| [04](tasks/04-swg-anisotropic-phase-shifter-meep/instruction.md) | Integrated photonic phase shifters | Broadband differential phase in periodic SWG waveguides |
-| [05](tasks/05-pt-bragg-unidirectional-invisibility-meep/instruction.md) | Non-Hermitian photonics | Unidirectional invisibility in a gain–loss Bragg grating |
-| [06](tasks/06-gmr-grating-fano-meep/instruction.md) | Guided-mode resonances | Two resonance branches in a slotted multilayer grating |
-| [07](tasks/07-brewster-spatial-differentiator-meep/instruction.md) | Optical analog computing | Brewster-interface spatial differentiation |
-| [08](tasks/08-clc-1d-resonator-meep/instruction.md) | Anisotropic liquid-crystal optics | Polarization-selective transmission of cholesteric slabs |
-| [09](tasks/09-pimarenyl-bifurcation-v2/instruction.md) | Reaction dynamics | Short-time steering in pimarenyl-cation trajectories |
-| [10](tasks/10-haastrup-2018-mos2-bands/instruction.md) | Two-dimensional materials | Elastic response and spin–orbit bands of monolayer MoS2 |
-| [11](tasks/11-horlbeck-2018-genetic-interactions/instruction.md) | Functional genomics | Reconstructing a human CRISPRi genetic-interaction map |
-| [12](tasks/12-mapgpt-r2r/instruction.md) | Vision-and-language navigation | MapGPT mapping, prompting, and adaptive navigation |
+| [01](tasks/01-cpw-quad-port-uwb-mimo/instruction.md) | RF antennas and arrays | Matching, isolation, and radiation in a CPW UWB MIMO antenna |
+| [02](tasks/02-anisotropic-coding-diffusion-metasurface/instruction.md) | RF metasurfaces and scattering | Polarization-dependent reflection and diffuse scattering |
+| [03](tasks/03-dual-passband-angular-stable-fss/instruction.md) | RF filters and frequency-selective surfaces | Dual-passband transmission and angular stability |
+| [04](tasks/04-swg-anisotropic-phase-shifter-meep/instruction.md) | Integrated photonic devices | Broadband differential phase in periodic SWG waveguides |
+| [05](tasks/05-pt-bragg-unidirectional-invisibility-meep/instruction.md) | Photonic crystals and topology | Unidirectional invisibility in a gain–loss Bragg grating |
+| [06](tasks/06-gmr-grating-fano-meep/instruction.md) | Metasurfaces gratings and plasmonics | Two resonance branches in a slotted multilayer grating |
+| [07](tasks/07-brewster-spatial-differentiator-meep/instruction.md) | Optical computing | Brewster-interface spatial differentiation |
+| [08](tasks/08-clc-1d-resonator-meep/instruction.md) | Resonators filters and tunable devices | Polarization-selective transmission of cholesteric slabs |
+| [09](tasks/09-pimarenyl-bifurcation-v2/instruction.md) | Computational chemistry | Short-time steering in pimarenyl-cation trajectories |
+| [10](tasks/10-haastrup-2018-mos2-bands/instruction.md) | Computational materials science | Elastic response and spin–orbit bands of monolayer MoS2 |
+| [11](tasks/11-horlbeck-2018-genetic-interactions/instruction.md) | Computational biology and bioinformatics | Reconstructing a human CRISPRi genetic-interaction map |
+| [12](tasks/12-mapgpt-r2r/instruction.md) | Robotics and embodied AI | MapGPT mapping, prompting, and adaptive navigation |
 
 ## Quickstart
 
